@@ -22,6 +22,8 @@ license: BSD3
 license-file: LICENSE
 build-type: Simple
 extra-source-files: README.md
+category: Data
+synopsis: small enum types
 
 source-repository head
   type: git
