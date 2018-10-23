@@ -3,7 +3,16 @@ name: enum-types
 version: 0.1.0.0
 description:
   This library provides small enumeration types intended to be
-  used in test suites.
+  used in test suites. This is most useful when used with a companion
+  package that provides orphan instances:
+  .
+  * quickcheck-enum-instances
+  .
+  * leancheck-enum-instances
+  .
+  The value these types provide is that they allow the user to
+  be selective about the number of inhabitants a tested type should
+  have.
 homepage: https://github.com/andrewthad/quickcheck-enum
 bug-reports: https://github.com/andrewthad/quickcheck-enum/issues
 author: Andrew Martin
