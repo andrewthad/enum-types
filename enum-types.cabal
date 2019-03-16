@@ -32,6 +32,6 @@ source-repository head
 library
   exposed-modules: Data.Enum.Types
   hs-source-dirs: src
-  build-depends: base >= 4.9.1.0 && < 5
+  build-depends: base >= 4.11.1.0 && < 5
   default-language: Haskell2010
 

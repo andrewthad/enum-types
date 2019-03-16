@@ -45,3 +45,69 @@ data J = J0 | J1 | J2 | J3 | J4 | J5 | J6 | J7 | J8 | J9
 data K = K0 | K1 | K2 | K3 | K4 | K5 | K6 | K7 | K8 | K9 | K10
   deriving (Eq,Ord,Show,Read,Bounded,Enum)
 
+instance Semigroup A where
+  (<>) = min
+
+instance Semigroup B where
+  (<>) = min
+
+instance Semigroup C where
+  (<>) = min
+
+instance Semigroup D where
+  (<>) = min
+
+instance Semigroup E where
+  (<>) = min
+
+instance Semigroup F where
+  (<>) = min
+
+instance Semigroup G where
+  (<>) = min
+
+instance Semigroup H where
+  (<>) = min
+
+instance Semigroup I where
+  (<>) = min
+
+instance Semigroup J where
+  (<>) = min
+
+instance Semigroup K where
+  (<>) = min
+
+instance Monoid A where
+  mempty = maxBound
+
+instance Monoid B where
+  mempty = maxBound
+
+instance Monoid C where
+  mempty = maxBound
+
+instance Monoid D where
+  mempty = maxBound
+
+instance Monoid E where
+  mempty = maxBound
+
+instance Monoid F where
+  mempty = maxBound
+
+instance Monoid G where
+  mempty = maxBound
+
+instance Monoid H where
+  mempty = maxBound
+
+instance Monoid I where
+  mempty = maxBound
+
+instance Monoid J where
+  mempty = maxBound
+
+instance Monoid K where
+  mempty = maxBound
+
