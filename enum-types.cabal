@@ -1,6 +1,6 @@
 cabal-version: 2.0
 name: enum-types
-version: 0.1.0.0
+version: 0.1.1.0
 description:
   This library provides small enumeration types intended to be
   used in test suites. This is most useful when used with a companion
